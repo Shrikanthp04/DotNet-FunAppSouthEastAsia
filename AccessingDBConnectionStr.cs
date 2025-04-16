@@ -21,7 +21,7 @@ namespace Function
 
         [Function("AccessingDBConnectionStr")]
         public async Task<HttpResponseData> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestData req)
         {
             _logger.LogInformation("Fetching DB connection string from Key Vault...");
 
