@@ -2,7 +2,7 @@
   "profiles": {
     "Documents": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7163",
+      "commandLineArgs": "--port 7086",
       "launchBrowser": false
     }
   }
