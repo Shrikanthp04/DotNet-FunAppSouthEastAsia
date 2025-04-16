@@ -35,7 +35,7 @@ namespace Function
                 string dbConnectionStr = secret.Value;
 
                 var response = req.CreateResponse(System.Net.HttpStatusCode.OK);
-                await response.WriteStringAsync($"DB Connection String: {dbConnectionStr}");
+                await response.WriteStringAsync($"DB Connection String: {dbConnectionStr}\n\n\n\n Region: South East Asia Region Function App!!!");
                 return response;
             }
             catch (Exception ex)
